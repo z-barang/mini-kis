@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from fhir_client import upload_patient
 
 #read synthea fhir bundle json file and extract patient resources
 
